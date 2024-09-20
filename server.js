@@ -23,7 +23,7 @@ app.post('/send-sms', async (req, res) => {
     const options = {
         to: [to],
         message: message,
-        from: 'Vargas' // Optional
+        from: 'AFRICASTKNG' // Optional
     };
 
     try {
