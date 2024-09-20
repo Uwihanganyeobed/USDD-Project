@@ -10,7 +10,7 @@ const sms = africastalking.SMS;
 const app = express();
 
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({origin: 'https://usdd-project-1.onrender.com'}));
 
 // Test route
 app.get('/', (req, res) => {
