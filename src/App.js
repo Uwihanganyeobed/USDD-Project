@@ -9,7 +9,7 @@ function App() {
 
     const sendSMS = async () => {
         try {
-            const res = await axios.post('https://usdd-project.onrender.com/', {
+            const res = await axios.post('https://usdd-project.onrender.com/send-sms', {
                 to: phoneNumber,
                 message: message,
             });
